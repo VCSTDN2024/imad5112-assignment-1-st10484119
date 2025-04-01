@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/food2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meal Pal"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:translationX="120dp"
+        android:translationY="-60dp"
+        />
+
+    <EditText
+        android:id="@+id/Enter"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:hint="Enter The Time Of Day here"
+        android:inputType="text"
+        android:text=""
+        android:textSize="20sp"
+        android:translationX="-95dp"
+        android:translationY="50dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"/>
+
+
+    <Button
+        android:id="@+id/GenBtn"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Generate Meal"
+        android:translationX="-345dp"
+        android:translationY="150dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/ClrBtn"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="-575dp"
+        android:translationY="500dp" />
+
+    <Button
+        android:id="@+id/ExtBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="-815dp"
+        android:translationY="600dp" />
+
+    <TextView
+        android:id="@+id/genTxt"
+        android:layout_width="225dp"
+        android:layout_height="200dp"
+        android:text=""
+        android:translationX="-1050dp"
+        android:translationY="310dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>
