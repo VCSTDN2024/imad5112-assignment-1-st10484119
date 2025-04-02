@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="@drawable/food3"
     >
 
     <TextView
@@ -28,7 +29,8 @@
         android:textSize="20sp"
         android:translationX="-95dp"
         android:translationY="50dp"
-        android:textStyle="italic"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         />
 
 
@@ -72,6 +74,7 @@
         android:translationY="310dp"
         android:gravity="center"
         android:textSize="25sp"
+        android:textColor="@color/black"
         />
 
 
