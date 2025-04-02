@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var Enter: EditText
     private lateinit var ClrBtn: Button
     private lateinit var ExtBtn: Button
-    private lateinit var GenBtn: Button
+    private lateinit var GenBtn: Button                  // establishing all variables //
     private lateinit var genTXT: TextView
 
 
@@ -29,21 +29,21 @@ class MainActivity : AppCompatActivity() {
 
 
         ClrBtn = findViewById(R.id.ClrBtn)
-        ExtBtn = findViewById(R.id.ExtBtn)
+        ExtBtn = findViewById(R.id.ExtBtn)               // ID's for all buttons//
         GenBtn = findViewById(R.id.GenBtn)
         Enter = findViewById(R.id.Enter)
         genTXT = findViewById(R.id.genTxt)
 
 
         ClrBtn.setOnClickListener() {
-            Enter.text.clear()
+            Enter.text.clear()             // code for the clear button and function//
             genTXT.text = ""
 
         }
 
         ExtBtn.setOnClickListener() {
             finishAffinity()
-            exitProcess(0)
+            exitProcess(0)           // code for exit button//
         }
 
         GenBtn.setOnClickListener() {
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
 
 
             else -> genTXT?.text = "Input Is Invalid"
-
+// all code for the suggested meals//
 
 
         }
@@ -94,6 +94,17 @@ class MainActivity : AppCompatActivity() {
         }
         return b
     }
+
+     /*
+     Refrences
+     Background image https://www.istockphoto.com/vector/kitchen-seamless-pattern-vector-background-gm475511846-65634849
+      */
+
+
+
+
+
+
 }
 
 
